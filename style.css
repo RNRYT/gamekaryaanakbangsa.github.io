@@ -1,0 +1,94 @@
+/* root */
+:root {
+    --background: rgb(255, 255, 255);
+    --background-2: rgb(255, 171, 118);
+    --background-3: rgb(189, 87, 87);
+    /* text */
+    --text: rgb(65, 65, 65);
+    --text-2: rgb(187, 99, 99);
+    --text-info: rgb(173, 94, 94);
+}
+
+/* other */
+body {
+    background: var(--background);
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: var(--text);
+    font-family: "Monsterrat";
+}
+
+hr.underline {
+    width: 35%;
+    border-top: 6px solid #cebbbc;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    /* margin-left: 15%; */
+    opacity: 100%;
+    border-radius: 5px;
+}
+
+.swal-overlay {
+    background-color: rgba(43, 92, 165, 0.45);
+}
+
+/* img {
+    border-radius: 5px;
+} */
+
+/* header */
+#header {
+    background: linear-gradient(to bottom, #FF6363, #dad4d1);
+    padding: 10%;
+    box-shadow: 0px 5px 5px  rgb(185, 185, 185);
+}
+
+#header h1 {
+    font-size: 50px;
+}
+
+/* game 1 */
+#game1 {
+    margin-top: 5%;
+}
+
+#game1 h2 {
+    margin-left: 4%;
+}
+
+#game1 h5 {
+    margin-left: 4%;
+    
+}
+
+#game1 img {
+    width: 350px;
+    margin-right: 12%;
+}
+
+#game1 .game-1 p {
+    margin-left: 4%;
+}
+
+#game1 a {
+    margin-left: 4%;
+    text-decoration: none;
+    transition: 0.5s;
+    color: var(--text);
+    font-size: 20px;
+}
+
+#game1 a:hover {
+    margin-left: 7%;
+    color: var(--text-info);
+}

@@ -7,6 +7,7 @@
     --text: rgb(65, 65, 65);
     --text-2: rgb(187, 99, 99);
     --text-info: rgb(173, 94, 94);
+    --text-3: rgb(47, 69, 194);
 }
 
 /* other */
@@ -42,6 +43,12 @@ hr.underline {
     background-color: rgba(43, 92, 165, 0.45);
 }
 
+#pembatas h3 {
+    background: rgb(90, 90, 90);
+    color: #fff;
+    box-shadow: 5px 5px 5px rgb(168, 168, 168);
+}
+
 /* img {
     border-radius: 5px;
 } */
@@ -68,7 +75,13 @@ hr.underline {
 
 #game1 h5 {
     margin-left: 4%;
+    transition: 0.5s;
     
+}
+
+#game1 h5:hover {
+    margin-left: 7%;
+    color: var(--text-3);
 }
 
 #game1 img {
@@ -78,7 +91,7 @@ hr.underline {
 
 #game1 .game-1 p {
     margin-left: 4%;
-}
+}   
 
 #game1 a {
     margin-left: 4%;
@@ -92,3 +105,59 @@ hr.underline {
     margin-left: 7%;
     color: var(--text-info);
 }
+
+/* game 2 */
+#game2 {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#game2 h2 {
+    margin-right: 5%;
+}
+
+#game2 h5 {
+    margin-right: 5%;
+    transition: 0.5s;
+}
+
+#game2 h5:hover {
+    margin-right: 7%;
+    color: var(--text-3);
+}
+
+#game2 img {
+    width: 350px;
+    margin-left: 4%;
+}
+
+#game2 .game-2 p {
+    margin-right: 5%;
+}   
+
+#game2 a {
+    margin-right: 5%;
+    text-decoration: none;
+    transition: 0.5s;
+    color: var(--text);
+    font-size: 20px;
+}
+
+#game2 a:hover {
+    margin-right: 7%;
+    color: var(--text-info);
+}
+
+/* footer */
+footer {
+    background: rgb(175, 91, 91);
+}
+
+footer  {
+    color: #fff;
+}
+
+footer a:hover {
+    color: rgb(144, 67, 207);  
+}
+

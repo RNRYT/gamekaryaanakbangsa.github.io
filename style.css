@@ -25,12 +25,12 @@ h6,
 p,
 a {
     color: var(--text);
-    font-family: "Monsterrat";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 hr.underline {
     width: 35%;
-    border-top: 6px solid #cebbbc;
+    border-top: 6px solid #252525;
     border-bottom: none;
     border-left: none;
     border-right: none;
@@ -54,14 +54,16 @@ hr.underline {
 } */
 
 /* header */
+
 #header {
-    background: linear-gradient(to bottom, #FF6363, #dad4d1);
+    background: linear-gradient(to bottom, #faa9a9, #facdcd, rgb(216, 216, 216));
     padding: 10%;
     box-shadow: 0px 5px 5px  rgb(185, 185, 185);
 }
 
 #header h1 {
     font-size: 50px;
+    margin-bottom: 2%;
 }
 
 /* game 1 */
@@ -85,8 +87,8 @@ hr.underline {
 }
 
 #game1 img {
-    width: 350px;
-    margin-right: 12%;
+    width: 450px;
+    margin-right: 5%;
 }
 
 #game1 .game-1 p {
@@ -127,8 +129,8 @@ hr.underline {
 }
 
 #game2 img {
-    width: 350px;
-    margin-left: 4%;
+    width: 450px;
+    margin-left: 2%;
 }
 
 #game2 .game-2 p {
@@ -160,4 +162,3 @@ footer  {
 footer a:hover {
     color: rgb(144, 67, 207);  
 }
-
